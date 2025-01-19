@@ -1,0 +1,15 @@
+@media (max-width:767px) {
+    #about-cont {
+        margin-bottom: -60px;
+    }
+    .about-title {
+        font-size: 70px;
+    }
+}
+
+
+@media (max-width:991px) {
+    #about-cont {
+        margin-bottom: -40px;
+    }
+}
