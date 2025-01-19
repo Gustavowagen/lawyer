@@ -18,6 +18,7 @@ function App() {
         <Route path="/testimonials" element={<Testimonial />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   );
